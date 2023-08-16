@@ -1,10 +1,11 @@
 module.exports = {
   ci: {
-    collect: {
-      /* Add configuration here */
+   collect: {
+  // ...
+  url: ['http://localhost:8080']
     },
-    upload: {
-      /* Add configuration here */
+      upload: {
+  target: 'temporary-public-storage',
+}
     },
-  },
 };
