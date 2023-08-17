@@ -2,7 +2,7 @@ module.exports = {
   ci: {
    collect: {
   // ...
-  url: ['http://localhost:8080']
+  url: [' https://www.digidentity.eu/']
     },
       upload: {
   target: 'temporary-public-storage',
