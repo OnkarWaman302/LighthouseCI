@@ -1,9 +1,10 @@
 module.exports = {
   ci: {
    collect: {
-  numberOfRuns: 5
-  url: [' https://www.digidentity.eu/']
+   url: [' https://www.digidentity.eu/'],
+   numberOfRuns: '5'
     },
+    
       upload: {
   target: 'temporary-public-storage',
 }
